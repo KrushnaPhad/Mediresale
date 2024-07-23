@@ -1,0 +1,708 @@
+CRITICAL - 2024-07-23 06:07:05 --> ErrorException: Undefined variable $StateModel
+[Method: POST, Route: property/add_property]
+in APPPATH\Controllers\Property.php on line 74.
+ 1 APPPATH\Controllers\Property.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $StateModel', 'C:\\xampp\\htdocs\\mediresaleold\\app\\Controllers\\Property.php', 74)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Property->add_property()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Property))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-23 06:09:16 --> ErrorException: Undefined variable $StateModel
+[Method: POST, Route: property/add_property]
+in APPPATH\Controllers\Property.php on line 74.
+ 1 APPPATH\Controllers\Property.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $StateModel', 'C:\\xampp\\htdocs\\mediresaleold\\app\\Controllers\\Property.php', 74)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Property->add_property()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Property))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-23 06:25:52 --> ErrorException: Undefined variable $commonModel
+[Method: POST, Route: property/add_property]
+in APPPATH\Controllers\Property.php on line 71.
+ 1 APPPATH\Controllers\Property.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $commonModel', 'C:\\xampp\\htdocs\\mediresaleold\\app\\Controllers\\Property.php', 71)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Property->add_property()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Property))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-23 06:26:09 --> ErrorException: Undefined variable $commonModel
+[Method: POST, Route: property/add_property]
+in APPPATH\Controllers\Property.php on line 71.
+ 1 APPPATH\Controllers\Property.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $commonModel', 'C:\\xampp\\htdocs\\mediresaleold\\app\\Controllers\\Property.php', 71)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Property->add_property()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Property))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-07-23 06:44:57 --> mysqli_sql_exception: Column 'equipment_image' cannot be null in C:\xampp\htdocs\mediresaleold\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\mediresaleold\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xampp\htdocs\mediresaleold\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp\htdocs\mediresaleold\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp\htdocs\mediresaleold\system\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp\htdocs\mediresaleold\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\mediresaleold\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\mediresaleold\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\mediresaleold\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\mediresaleold\app\Controllers\Property.php(96): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\mediresaleold\system\CodeIgniter.php(933): App\Controllers\Property->add_property()
+#10 C:\xampp\htdocs\mediresaleold\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Property))
+#11 C:\xampp\htdocs\mediresaleold\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\mediresaleold\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\mediresaleold\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp\htdocs\mediresaleold\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 {main}
+CRITICAL - 2024-07-23 06:44:57 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'equipment_image' cannot be null
+[Method: POST, Route: property/add_property]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `property` (`name`, `description`, `state`, `city`, `zipcode`, `address`, `built_year`, `total_area`, `price`, `parking`, `equipment_image`) VALUES (:name:, :description:, :state:, :city:, :zipcode:, :address:, :built_year:, :total_area:, :price:, :parking:, :equipment_image:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Property.php(96): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Property->add_property()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Property))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-23 06:44:57 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'equipment_image' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `property` (`name`, `description`, `state`, `city`, `zipcode`, `address`, `built_year`, `total_area`, `price`, `parking`, `equipment_image`) VALUES (\'shreeeee\', \'<p>shreeeeeeee</p>\', \'MAHARASHTRA\', \'Unknown City\', \'43444\', \'\', \'\', \'\', \'\', \'\', NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `property` (`name`, `description`, `state`, `city`, `zipcode`, `address`, `built_year`, `total_area`, `price`, `parking`, `equipment_image`) VALUES (\'shreeeee\', \'<p>shreeeeeeee</p>\', \'MAHARASHTRA\', \'Unknown City\', \'43444\', \'\', \'\', \'\', \'\', \'\', NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `property` (`name`, `description`, `state`, `city`, `zipcode`, `address`, `built_year`, `total_area`, `price`, `parking`, `equipment_image`) VALUES (:name:, :description:, :state:, :city:, :zipcode:, :address:, :built_year:, :total_area:, :price:, :parking:, :equipment_image:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\Property.php(96): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Property->add_property()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Property))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-23 06:44:57 --> [Caused by] mysqli_sql_exception: Column 'equipment_image' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `property` (`name`, `description`, `state`, `city`, `zipcode`, `address`, `built_year`, `total_area`, `price`, `parking`, `equipment_image`) VALUES (\'shreeeee\', \'<p>shreeeeeeee</p>\', \'MAHARASHTRA\', \'Unknown City\', \'43444\', \'\', \'\', \'\', \'\', \'\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `property` (`name`, `description`, `state`, `city`, `zipcode`, `address`, `built_year`, `total_area`, `price`, `parking`, `equipment_image`) VALUES (\'shreeeee\', \'<p>shreeeeeeee</p>\', \'MAHARASHTRA\', \'Unknown City\', \'43444\', \'\', \'\', \'\', \'\', \'\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `property` (`name`, `description`, `state`, `city`, `zipcode`, `address`, `built_year`, `total_area`, `price`, `parking`, `equipment_image`) VALUES (\'shreeeee\', \'<p>shreeeeeeee</p>\', \'MAHARASHTRA\', \'Unknown City\', \'43444\', \'\', \'\', \'\', \'\', \'\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `property` (`name`, `description`, `state`, `city`, `zipcode`, `address`, `built_year`, `total_area`, `price`, `parking`, `equipment_image`) VALUES (:name:, :description:, :state:, :city:, :zipcode:, :address:, :built_year:, :total_area:, :price:, :parking:, :equipment_image:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Property.php(96): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Property->add_property()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Property))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-07-23 06:44:57 --> mysqli_sql_exception: Column 'equipment_image' cannot be null in C:\xampp\htdocs\mediresaleold\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\mediresaleold\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xampp\htdocs\mediresaleold\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp\htdocs\mediresaleold\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp\htdocs\mediresaleold\system\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp\htdocs\mediresaleold\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\mediresaleold\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\mediresaleold\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\mediresaleold\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\mediresaleold\app\Controllers\Property.php(96): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\mediresaleold\system\CodeIgniter.php(933): App\Controllers\Property->add_property()
+#10 C:\xampp\htdocs\mediresaleold\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Property))
+#11 C:\xampp\htdocs\mediresaleold\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\mediresaleold\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\mediresaleold\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp\htdocs\mediresaleold\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 {main}
+CRITICAL - 2024-07-23 06:44:57 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'equipment_image' cannot be null
+[Method: POST, Route: property/add_property]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `property` (`name`, `description`, `state`, `city`, `zipcode`, `address`, `built_year`, `total_area`, `price`, `parking`, `equipment_image`) VALUES (:name:, :description:, :state:, :city:, :zipcode:, :address:, :built_year:, :total_area:, :price:, :parking:, :equipment_image:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Property.php(96): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Property->add_property()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Property))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-23 06:44:57 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'equipment_image' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `property` (`name`, `description`, `state`, `city`, `zipcode`, `address`, `built_year`, `total_area`, `price`, `parking`, `equipment_image`) VALUES (\'shreeeee\', \'<p>shreeeeeeee</p>\', \'MAHARASHTRA\', \'Unknown City\', \'43444\', \'\', \'\', \'\', \'\', \'\', NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `property` (`name`, `description`, `state`, `city`, `zipcode`, `address`, `built_year`, `total_area`, `price`, `parking`, `equipment_image`) VALUES (\'shreeeee\', \'<p>shreeeeeeee</p>\', \'MAHARASHTRA\', \'Unknown City\', \'43444\', \'\', \'\', \'\', \'\', \'\', NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `property` (`name`, `description`, `state`, `city`, `zipcode`, `address`, `built_year`, `total_area`, `price`, `parking`, `equipment_image`) VALUES (:name:, :description:, :state:, :city:, :zipcode:, :address:, :built_year:, :total_area:, :price:, :parking:, :equipment_image:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\Property.php(96): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Property->add_property()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Property))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-23 06:44:57 --> [Caused by] mysqli_sql_exception: Column 'equipment_image' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `property` (`name`, `description`, `state`, `city`, `zipcode`, `address`, `built_year`, `total_area`, `price`, `parking`, `equipment_image`) VALUES (\'shreeeee\', \'<p>shreeeeeeee</p>\', \'MAHARASHTRA\', \'Unknown City\', \'43444\', \'\', \'\', \'\', \'\', \'\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `property` (`name`, `description`, `state`, `city`, `zipcode`, `address`, `built_year`, `total_area`, `price`, `parking`, `equipment_image`) VALUES (\'shreeeee\', \'<p>shreeeeeeee</p>\', \'MAHARASHTRA\', \'Unknown City\', \'43444\', \'\', \'\', \'\', \'\', \'\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `property` (`name`, `description`, `state`, `city`, `zipcode`, `address`, `built_year`, `total_area`, `price`, `parking`, `equipment_image`) VALUES (\'shreeeee\', \'<p>shreeeeeeee</p>\', \'MAHARASHTRA\', \'Unknown City\', \'43444\', \'\', \'\', \'\', \'\', \'\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `property` (`name`, `description`, `state`, `city`, `zipcode`, `address`, `built_year`, `total_area`, `price`, `parking`, `equipment_image`) VALUES (:name:, :description:, :state:, :city:, :zipcode:, :address:, :built_year:, :total_area:, :price:, :parking:, :equipment_image:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Property.php(96): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Property->add_property()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Property))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-07-23 06:45:02 --> mysqli_sql_exception: Column 'equipment_image' cannot be null in C:\xampp\htdocs\mediresaleold\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\mediresaleold\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xampp\htdocs\mediresaleold\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp\htdocs\mediresaleold\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp\htdocs\mediresaleold\system\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp\htdocs\mediresaleold\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\mediresaleold\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\mediresaleold\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\mediresaleold\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\mediresaleold\app\Controllers\Property.php(96): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\mediresaleold\system\CodeIgniter.php(933): App\Controllers\Property->add_property()
+#10 C:\xampp\htdocs\mediresaleold\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Property))
+#11 C:\xampp\htdocs\mediresaleold\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\mediresaleold\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\mediresaleold\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp\htdocs\mediresaleold\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 {main}
+CRITICAL - 2024-07-23 06:45:02 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'equipment_image' cannot be null
+[Method: POST, Route: property/add_property]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `property` (`name`, `description`, `state`, `city`, `zipcode`, `address`, `built_year`, `total_area`, `price`, `parking`, `equipment_image`) VALUES (:name:, :description:, :state:, :city:, :zipcode:, :address:, :built_year:, :total_area:, :price:, :parking:, :equipment_image:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Property.php(96): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Property->add_property()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Property))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-23 06:45:02 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'equipment_image' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `property` (`name`, `description`, `state`, `city`, `zipcode`, `address`, `built_year`, `total_area`, `price`, `parking`, `equipment_image`) VALUES (\'shreeeee\', \'<p>shreeeeeeee</p>\', \'MAHARASHTRA\', \'Unknown City\', \'43444\', \'giridhi lane\', \'\', \'\', \'\', \'\', NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `property` (`name`, `description`, `state`, `city`, `zipcode`, `address`, `built_year`, `total_area`, `price`, `parking`, `equipment_image`) VALUES (\'shreeeee\', \'<p>shreeeeeeee</p>\', \'MAHARASHTRA\', \'Unknown City\', \'43444\', \'giridhi lane\', \'\', \'\', \'\', \'\', NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `property` (`name`, `description`, `state`, `city`, `zipcode`, `address`, `built_year`, `total_area`, `price`, `parking`, `equipment_image`) VALUES (:name:, :description:, :state:, :city:, :zipcode:, :address:, :built_year:, :total_area:, :price:, :parking:, :equipment_image:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\Property.php(96): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Property->add_property()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Property))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-23 06:45:02 --> [Caused by] mysqli_sql_exception: Column 'equipment_image' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `property` (`name`, `description`, `state`, `city`, `zipcode`, `address`, `built_year`, `total_area`, `price`, `parking`, `equipment_image`) VALUES (\'shreeeee\', \'<p>shreeeeeeee</p>\', \'MAHARASHTRA\', \'Unknown City\', \'43444\', \'giridhi lane\', \'\', \'\', \'\', \'\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `property` (`name`, `description`, `state`, `city`, `zipcode`, `address`, `built_year`, `total_area`, `price`, `parking`, `equipment_image`) VALUES (\'shreeeee\', \'<p>shreeeeeeee</p>\', \'MAHARASHTRA\', \'Unknown City\', \'43444\', \'giridhi lane\', \'\', \'\', \'\', \'\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `property` (`name`, `description`, `state`, `city`, `zipcode`, `address`, `built_year`, `total_area`, `price`, `parking`, `equipment_image`) VALUES (\'shreeeee\', \'<p>shreeeeeeee</p>\', \'MAHARASHTRA\', \'Unknown City\', \'43444\', \'giridhi lane\', \'\', \'\', \'\', \'\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `property` (`name`, `description`, `state`, `city`, `zipcode`, `address`, `built_year`, `total_area`, `price`, `parking`, `equipment_image`) VALUES (:name:, :description:, :state:, :city:, :zipcode:, :address:, :built_year:, :total_area:, :price:, :parking:, :equipment_image:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Property.php(96): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Property->add_property()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Property))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-07-23 06:53:50 --> mysqli_sql_exception: Unknown column 'state_id' in 'where clause' in C:\xampp\htdocs\mediresaleold\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\mediresaleold\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\mediresaleold\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\mediresaleold\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\mediresaleold\system\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\mediresaleold\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\mediresaleold\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\mediresaleold\app\Models\CommonModel.php(29): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\mediresaleold\app\Controllers\Property.php(69): App\Models\CommonModel->getCityNameById('313')
+#8 C:\xampp\htdocs\mediresaleold\system\CodeIgniter.php(933): App\Controllers\Property->add_property()
+#9 C:\xampp\htdocs\mediresaleold\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Property))
+#10 C:\xampp\htdocs\mediresaleold\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\mediresaleold\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\mediresaleold\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\mediresaleold\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-07-23 06:53:50 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'state_id' in 'where clause'
+[Method: POST, Route: property/add_property]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `states`
+WHERE `state_id` = :state_id:', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\CommonModel.php(29): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Property.php(69): App\Models\CommonModel->getCityNameById('313')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Property->add_property()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Property))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-23 06:53:50 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'state_id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `states`
+WHERE `state_id` = \'313\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `states`
+WHERE `state_id` = \'313\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `states`
+WHERE `state_id` = :state_id:', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\CommonModel.php(29): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Property.php(69): App\Models\CommonModel->getCityNameById('313')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Property->add_property()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Property))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-23 06:53:50 --> [Caused by] mysqli_sql_exception: Unknown column 'state_id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `states`
+WHERE `state_id` = \'313\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `states`
+WHERE `state_id` = \'313\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `states`
+WHERE `state_id` = \'313\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `states`
+WHERE `state_id` = :state_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\CommonModel.php(29): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Property.php(69): App\Models\CommonModel->getCityNameById('313')
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Property->add_property()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Property))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-07-23 06:54:02 --> mysqli_sql_exception: Unknown column 'state_id' in 'where clause' in C:\xampp\htdocs\mediresaleold\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\mediresaleold\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\mediresaleold\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\mediresaleold\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\mediresaleold\system\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\mediresaleold\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\mediresaleold\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\mediresaleold\app\Models\CommonModel.php(29): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\mediresaleold\app\Controllers\Property.php(69): App\Models\CommonModel->getCityNameById('315')
+#8 C:\xampp\htdocs\mediresaleold\system\CodeIgniter.php(933): App\Controllers\Property->add_property()
+#9 C:\xampp\htdocs\mediresaleold\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Property))
+#10 C:\xampp\htdocs\mediresaleold\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\mediresaleold\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\mediresaleold\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\mediresaleold\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-07-23 06:54:02 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'state_id' in 'where clause'
+[Method: POST, Route: property/add_property]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `states`
+WHERE `state_id` = :state_id:', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\CommonModel.php(29): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Property.php(69): App\Models\CommonModel->getCityNameById('315')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Property->add_property()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Property))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-23 06:54:02 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'state_id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `states`
+WHERE `state_id` = \'315\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `states`
+WHERE `state_id` = \'315\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `states`
+WHERE `state_id` = :state_id:', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\CommonModel.php(29): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Property.php(69): App\Models\CommonModel->getCityNameById('315')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Property->add_property()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Property))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-23 06:54:02 --> [Caused by] mysqli_sql_exception: Unknown column 'state_id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `states`
+WHERE `state_id` = \'315\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `states`
+WHERE `state_id` = \'315\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `states`
+WHERE `state_id` = \'315\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `states`
+WHERE `state_id` = :state_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\CommonModel.php(29): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Property.php(69): App\Models\CommonModel->getCityNameById('315')
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Property->add_property()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Property))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-07-23 06:56:07 --> mysqli_sql_exception: Unknown column 'state_id' in 'where clause' in C:\xampp\htdocs\mediresaleold\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\mediresaleold\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\mediresaleold\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\mediresaleold\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\mediresaleold\system\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\mediresaleold\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\mediresaleold\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\mediresaleold\app\Models\CommonModel.php(29): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\mediresaleold\app\Controllers\Property.php(69): App\Models\CommonModel->getCityNameById('314')
+#8 C:\xampp\htdocs\mediresaleold\system\CodeIgniter.php(933): App\Controllers\Property->add_property()
+#9 C:\xampp\htdocs\mediresaleold\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Property))
+#10 C:\xampp\htdocs\mediresaleold\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\mediresaleold\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\mediresaleold\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\mediresaleold\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-07-23 06:56:07 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'state_id' in 'where clause'
+[Method: POST, Route: property/add_property]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `states`
+WHERE `state_id` = :state_id:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\CommonModel.php(29): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\Property.php(69): App\Models\CommonModel->getCityNameById('314')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Property->add_property()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Property))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-23 06:56:07 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'state_id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `states`
+WHERE `state_id` = \'314\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `states`
+WHERE `state_id` = \'314\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `states`
+WHERE `state_id` = :state_id:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 6 APPPATH\Models\CommonModel.php(29): CodeIgniter\BaseModel->first()
+ 7 APPPATH\Controllers\Property.php(69): App\Models\CommonModel->getCityNameById('314')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Property->add_property()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Property))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-23 06:56:07 --> [Caused by] mysqli_sql_exception: Unknown column 'state_id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `states`
+WHERE `state_id` = \'314\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `states`
+WHERE `state_id` = \'314\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `states`
+WHERE `state_id` = \'314\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `states`
+WHERE `state_id` = :state_id:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Models\CommonModel.php(29): CodeIgniter\BaseModel->first()
+ 8 APPPATH\Controllers\Property.php(69): App\Models\CommonModel->getCityNameById('314')
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Property->add_property()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Property))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-23 07:27:53 --> Error: Class "App\Models\StateModel" not found
+[Method: POST, Route: property/add_property]
+in APPPATH\Controllers\Property.php on line 66.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Property->add_property()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Property))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-23 07:30:46 --> Error: Class "App\Models\StateModel" not found
+[Method: POST, Route: property/add_property]
+in APPPATH\Controllers\Property.php on line 119.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Property->add_property()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Property))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-23 07:31:07 --> Error: Class "App\Models\StateModel" not found
+[Method: POST, Route: property/add_property]
+in APPPATH\Controllers\Property.php on line 119.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Property->add_property()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Property))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-23 08:53:54 --> Error: Class "App\Models\StateModel" not found
+[Method: POST, Route: property/add_property]
+in APPPATH\Controllers\Property.php on line 100.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Property->add_property()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Property))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-23 08:54:23 --> Error: Class "App\Models\StateModel" not found
+[Method: POST, Route: property/add_property]
+in APPPATH\Controllers\Property.php on line 100.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Property->add_property()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Property))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-23 09:00:25 --> Error: Class "App\Models\StateModel" not found
+[Method: POST, Route: property/add_property]
+in APPPATH\Controllers\Property.php on line 100.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Property->add_property()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Property))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-23 09:34:05 --> Error: Class "App\Models\StateModel" not found
+[Method: POST, Route: property/add_property]
+in APPPATH\Controllers\Property.php on line 100.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Property->add_property()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Property))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-23 09:40:00 --> Error: Class "App\Models\StateModel" not found
+[Method: POST, Route: property/add_property]
+in APPPATH\Controllers\Property.php on line 100.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Property->add_property()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Property))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-23 09:48:59 --> Error: Class "App\Models\StateModel" not found
+[Method: POST, Route: cities]
+in APPPATH\Controllers\Property.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Property->cities()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Property))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-23 09:53:28 --> Error: Class "App\Models\StateModel" not found
+[Method: GET, Route: property]
+in APPPATH\Controllers\Property.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Property->states()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Property))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-23 09:54:33 --> Error: Class "App\Models\StateModel" not found
+[Method: GET, Route: property]
+in APPPATH\Controllers\Property.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Property->states()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Property))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-23 09:54:34 --> Error: Class "App\Models\StateModel" not found
+[Method: GET, Route: property]
+in APPPATH\Controllers\Property.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Property->states()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Property))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-23 09:55:26 --> ErrorException: Attempt to read property "id" on array
+[Method: GET, Route: property]
+in APPPATH\Views\property\add_property.php on line 109.
+ 1 APPPATH\Views\property\add_property.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\xampp\\htdocs\\mediresaleold\\app\\Views\\property\\add_property.php', 109)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\mediresaleold\\app\\Views\\property\\add_property.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('property/add_property', [], true)
+ 5 APPPATH\Controllers\Property.php(25): view('property/add_property', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Property->states()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Property))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-07-23 09:57:31 --> mysqli_sql_exception: Not unique table/alias: 'states' in C:\xampp\htdocs\mediresaleold\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\mediresaleold\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `states`...', 0)
+#1 C:\xampp\htdocs\mediresaleold\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `states`...')
+#2 C:\xampp\htdocs\mediresaleold\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `states`...')
+#3 C:\xampp\htdocs\mediresaleold\system\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT `states`...', Array, false)
+#4 C:\xampp\htdocs\mediresaleold\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\mediresaleold\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\mediresaleold\app\Controllers\Property.php(136): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\mediresaleold\system\CodeIgniter.php(933): App\Controllers\Property->add_property()
+#8 C:\xampp\htdocs\mediresaleold\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Property))
+#9 C:\xampp\htdocs\mediresaleold\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\mediresaleold\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\mediresaleold\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\mediresaleold\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2024-07-23 09:57:31 --> CodeIgniter\Database\Exceptions\DatabaseException: Not unique table/alias: 'states'
+[Method: POST, Route: property/add_property]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT `states`.`name`
+FROM `states`, `states`
+WHERE `states`.`id` = :states.id:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\Property.php(136): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Property->add_property()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Property))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-23 09:57:31 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Not unique table/alias: 'states'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `states`.`name`
+FROM `states`, `states`
+WHERE `states`.`id` = \'12\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `states`.`name`
+FROM `states`, `states`
+WHERE `states`.`id` = \'12\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT `states`.`name`
+FROM `states`, `states`
+WHERE `states`.`id` = :states.id:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 6 APPPATH\Controllers\Property.php(136): CodeIgniter\BaseModel->first()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Property->add_property()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Property))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-23 09:57:31 --> [Caused by] mysqli_sql_exception: Not unique table/alias: 'states'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `states`.`name`
+FROM `states`, `states`
+WHERE `states`.`id` = \'12\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `states`.`name`
+FROM `states`, `states`
+WHERE `states`.`id` = \'12\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `states`.`name`
+FROM `states`, `states`
+WHERE `states`.`id` = \'12\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT `states`.`name`
+FROM `states`, `states`
+WHERE `states`.`id` = :states.id:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\Property.php(136): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Property->add_property()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Property))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-23 10:46:02 --> ErrorException: Undefined variable $equipmentModel
+[Method: GET, Route: dashboard]
+in APPPATH\Controllers\Home.php on line 82.
+ 1 APPPATH\Controllers\Home.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $equipmentModel', 'C:\\xampp\\htdocs\\mediresaleold\\app\\Controllers\\Home.php', 82)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-23 12:07:52 --> ErrorException: Undefined variable $totalCount
+[Method: GET, Route: dashboard]
+in APPPATH\Views\dashboard.php on line 37.
+ 1 APPPATH\Views\dashboard.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $totalCount', 'C:\\xampp\\htdocs\\mediresaleold\\app\\Views\\dashboard.php', 37)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\mediresaleold\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\DashBoard.php(23): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashBoard->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashBoard))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

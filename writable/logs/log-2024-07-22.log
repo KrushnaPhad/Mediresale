@@ -1,0 +1,572 @@
+CRITICAL - 2024-07-22 05:36:52 --> Error: Object of class CodeIgniter\Email\Email could not be converted to string
+[Method: POST, Route: send_email]
+in SYSTEMPATH\Database\Query.php on line 337.
+ 1 SYSTEMPATH\Database\Query.php(337): strtr('SELECT *
+FROM `registration`
+WHERE `email` = :email:
+ LIMIT 1', [...])
+ 2 SYSTEMPATH\Database\Query.php(312): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `registration`
+WHERE `email` = :email:
+ LIMIT 1', [...])
+ 3 SYSTEMPATH\Database\Query.php(163): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `registration`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 6 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 7 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 8 APPPATH\Controllers\SendMail.php(22): CodeIgniter\BaseModel->first()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SendMail->send_email_link()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SendMail))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 05:38:25 --> Error: Object of class CodeIgniter\Email\Email could not be converted to string
+[Method: POST, Route: send_email]
+in SYSTEMPATH\Database\Query.php on line 337.
+ 1 SYSTEMPATH\Database\Query.php(337): strtr('SELECT *
+FROM `registration`
+WHERE `email` = :email:
+ LIMIT 1', [...])
+ 2 SYSTEMPATH\Database\Query.php(312): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `registration`
+WHERE `email` = :email:
+ LIMIT 1', [...])
+ 3 SYSTEMPATH\Database\Query.php(163): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `registration`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 6 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 7 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 8 APPPATH\Controllers\SendMail.php(22): CodeIgniter\BaseModel->first()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SendMail->send_email_link()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SendMail))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 05:39:49 --> Error: Object of class CodeIgniter\Email\Email could not be converted to string
+[Method: POST, Route: send_email]
+in SYSTEMPATH\Database\Query.php on line 337.
+ 1 SYSTEMPATH\Database\Query.php(337): strtr('SELECT *
+FROM `registration`
+WHERE `email` = :email:
+ LIMIT 1', [...])
+ 2 SYSTEMPATH\Database\Query.php(312): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `registration`
+WHERE `email` = :email:
+ LIMIT 1', [...])
+ 3 SYSTEMPATH\Database\Query.php(163): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `registration`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 6 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 7 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 8 APPPATH\Controllers\SendMail.php(22): CodeIgniter\BaseModel->first()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SendMail->send_email_link()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SendMail))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 05:41:53 --> Error: Object of class CodeIgniter\Email\Email could not be converted to string
+[Method: POST, Route: send_email]
+in SYSTEMPATH\Database\Query.php on line 337.
+ 1 SYSTEMPATH\Database\Query.php(337): strtr('SELECT *
+FROM `registration`
+WHERE `email` = :email:
+ LIMIT 1', [...])
+ 2 SYSTEMPATH\Database\Query.php(312): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `registration`
+WHERE `email` = :email:
+ LIMIT 1', [...])
+ 3 SYSTEMPATH\Database\Query.php(163): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `registration`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 6 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 7 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 8 APPPATH\Controllers\SendMail.php(23): CodeIgniter\BaseModel->first()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SendMail->send_email_link()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SendMail))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 06:01:04 --> Error: Call to a member function setFrom() on string
+[Method: POST, Route: send_email]
+in APPPATH\Controllers\SendMail.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SendMail->send_email_link()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SendMail))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 06:04:08 --> TypeError: str_contains(): Argument #1 ($haystack) must be of type string, CodeIgniter\Email\Email given
+[Method: POST, Route: send_email]
+in SYSTEMPATH\Email\Email.php on line 753.
+ 1 SYSTEMPATH\Email\Email.php(753): str_contains(Object(CodeIgniter\Email\Email), ',')
+ 2 SYSTEMPATH\Email\Email.php(556): CodeIgniter\Email\Email->stringToArray(Object(CodeIgniter\Email\Email))
+ 3 APPPATH\Controllers\SendMail.php(32): CodeIgniter\Email\Email->setTo(Object(CodeIgniter\Email\Email))
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SendMail->send_email_link()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SendMail))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 06:15:37 --> ErrorException: Undefined variable $message
+[Method: POST, Route: send_email]
+in APPPATH\Controllers\SendMail.php on line 24.
+ 1 APPPATH\Controllers\SendMail.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $message', 'C:\\xampp\\htdocs\\mediresaleold\\app\\Controllers\\SendMail.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SendMail->send_email_link()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SendMail))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 06:16:27 --> ErrorException: Undefined variable $fname
+[Method: POST, Route: send_email]
+in APPPATH\Controllers\SendMail.php on line 27.
+ 1 APPPATH\Controllers\SendMail.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $fname', 'C:\\xampp\\htdocs\\mediresaleold\\app\\Controllers\\SendMail.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SendMail->send_email_link()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SendMail))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 06:18:00 --> ErrorException: Undefined variable $fname
+[Method: POST, Route: send_email]
+in APPPATH\Controllers\SendMail.php on line 27.
+ 1 APPPATH\Controllers\SendMail.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $fname', 'C:\\xampp\\htdocs\\mediresaleold\\app\\Controllers\\SendMail.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SendMail->send_email_link()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SendMail))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 06:24:37 --> ErrorException: Undefined variable $session
+[Method: POST, Route: send_email]
+in APPPATH\Controllers\SendMail.php on line 37.
+ 1 APPPATH\Controllers\SendMail.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\mediresaleold\\app\\Controllers\\SendMail.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SendMail->send_email_link()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SendMail))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 06:31:36 --> ParseError: Unclosed '{' on line 9
+[Method: GET, Route: forgot_password]
+in APPPATH\Controllers\SendMail.php on line 49.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\mediresaleold\\app\\Controllers\\SendMail.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SendMail')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SendMail')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\SendMail', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 08:27:56 --> ParseError: syntax error, unexpected token "if"
+[Method: GET, Route: forgot_password]
+in APPPATH\Controllers\SendMail.php on line 57.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\mediresaleold\\app\\Controllers\\SendMail.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SendMail')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SendMail')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\SendMail', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 08:57:02 --> ErrorException: Undefined variable $link
+[Method: POST, Route: send_email]
+in APPPATH\Controllers\SendMail.php on line 43.
+ 1 APPPATH\Controllers\SendMail.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $link', 'C:\\xampp\\htdocs\\mediresaleold\\app\\Controllers\\SendMail.php', 43)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SendMail->send_email_link()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SendMail))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 09:17:01 --> ErrorException: Undefined variable $id
+[Method: GET, Route: reset_password]
+in APPPATH\Views\forgot_password\reset_password.php on line 46.
+ 1 APPPATH\Views\forgot_password\reset_password.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'C:\\xampp\\htdocs\\mediresaleold\\app\\Views\\forgot_password\\reset_password.php', 46)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\mediresaleold\\app\\Views\\forgot_password\\reset_password.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('forgot_password/reset_password', [], true)
+ 5 APPPATH\Controllers\ResetPassword.php(12): view('forgot_password/reset_password')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResetPassword->reset_password()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResetPassword))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 09:17:38 --> ErrorException: Undefined variable $id
+[Method: GET, Route: reset_password]
+in APPPATH\Views\forgot_password\reset_password.php on line 46.
+ 1 APPPATH\Views\forgot_password\reset_password.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'C:\\xampp\\htdocs\\mediresaleold\\app\\Views\\forgot_password\\reset_password.php', 46)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\mediresaleold\\app\\Views\\forgot_password\\reset_password.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('forgot_password/reset_password', [], true)
+ 5 APPPATH\Controllers\ResetPassword.php(12): view('forgot_password/reset_password')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResetPassword->reset_password()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResetPassword))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 09:32:57 --> ErrorException: Undefined variable $id
+[Method: GET, Route: reset_password]
+in APPPATH\Controllers\ResetPassword.php on line 14.
+ 1 APPPATH\Controllers\ResetPassword.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'C:\\xampp\\htdocs\\mediresaleold\\app\\Controllers\\ResetPassword.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResetPassword->reset_password()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResetPassword))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 09:33:26 --> ErrorException: Undefined variable $id
+[Method: GET, Route: reset_password]
+in APPPATH\Controllers\ResetPassword.php on line 14.
+ 1 APPPATH\Controllers\ResetPassword.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'C:\\xampp\\htdocs\\mediresaleold\\app\\Controllers\\ResetPassword.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResetPassword->reset_password()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResetPassword))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 09:33:27 --> ErrorException: Undefined variable $id
+[Method: GET, Route: reset_password]
+in APPPATH\Controllers\ResetPassword.php on line 14.
+ 1 APPPATH\Controllers\ResetPassword.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'C:\\xampp\\htdocs\\mediresaleold\\app\\Controllers\\ResetPassword.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResetPassword->reset_password()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResetPassword))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 09:33:29 --> ErrorException: Undefined variable $id
+[Method: GET, Route: reset_password]
+in APPPATH\Controllers\ResetPassword.php on line 14.
+ 1 APPPATH\Controllers\ResetPassword.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'C:\\xampp\\htdocs\\mediresaleold\\app\\Controllers\\ResetPassword.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResetPassword->reset_password()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResetPassword))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 09:41:14 --> ErrorException: Undefined variable $data
+[Method: GET, Route: reset_password]
+in APPPATH\Controllers\ResetPassword.php on line 15.
+ 1 APPPATH\Controllers\ResetPassword.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\mediresaleold\\app\\Controllers\\ResetPassword.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResetPassword->reset_password()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResetPassword))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 09:41:25 --> ErrorException: Undefined variable $id
+[Method: GET, Route: reset_password]
+in APPPATH\Views\forgot_password\reset_password.php on line 42.
+ 1 APPPATH\Views\forgot_password\reset_password.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'C:\\xampp\\htdocs\\mediresaleold\\app\\Views\\forgot_password\\reset_password.php', 42)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\mediresaleold\\app\\Views\\forgot_password\\reset_password.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('forgot_password/reset_password', [], true)
+ 5 APPPATH\Controllers\ResetPassword.php(15): view('forgot_password/reset_password')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResetPassword->reset_password()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResetPassword))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 10:12:33 --> ErrorException: Undefined variable $id
+[Method: GET, Route: reset_password]
+in APPPATH\Views\forgot_password\reset_password.php on line 42.
+ 1 APPPATH\Views\forgot_password\reset_password.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'C:\\xampp\\htdocs\\mediresaleold\\app\\Views\\forgot_password\\reset_password.php', 42)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\mediresaleold\\app\\Views\\forgot_password\\reset_password.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('forgot_password/reset_password', [], true)
+ 5 APPPATH\Controllers\ResetPassword.php(13): view('forgot_password/reset_password')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResetPassword->reset_password()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResetPassword))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 10:15:41 --> ErrorException: Undefined variable $id
+[Method: GET, Route: reset_password]
+in APPPATH\Views\forgot_password\reset_password.php on line 41.
+ 1 APPPATH\Views\forgot_password\reset_password.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'C:\\xampp\\htdocs\\mediresaleold\\app\\Views\\forgot_password\\reset_password.php', 41)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\mediresaleold\\app\\Views\\forgot_password\\reset_password.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('forgot_password/reset_password', [], true)
+ 5 APPPATH\Controllers\ResetPassword.php(13): view('forgot_password/reset_password')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResetPassword->reset_password()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResetPassword))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 10:42:47 --> ArgumentCountError: Too few arguments to function App\Controllers\ResetPassword::reset_password(), 0 passed in C:\xampp\htdocs\mediresaleold\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: reset_password]
+in APPPATH\Controllers\ResetPassword.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResetPassword->reset_password()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResetPassword))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 12:00:54 --> CodeIgniter\Database\Exceptions\DatabaseException: Updates are not allowed unless they contain a "where" or "like" clause.
+[Method: POST, Route: update_password]
+in SYSTEMPATH\Model.php on line 456.
+ 1 SYSTEMPATH\BaseModel.php(1028): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\ResetPassword.php(38): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResetPassword->update_password()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResetPassword))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 12:05:32 --> ErrorException: Undefined variable $newPassword
+[Method: POST, Route: update_password]
+in APPPATH\Controllers\ResetPassword.php on line 24.
+ 1 APPPATH\Controllers\ResetPassword.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $newPassword', 'C:\\xampp\\htdocs\\mediresaleold\\app\\Controllers\\ResetPassword.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResetPassword->update_password()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResetPassword))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 13:24:43 --> ParseError: Unclosed '{' on line 8
+[Method: POST, Route: cities]
+in APPPATH\Controllers\Property.php on line 99.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\mediresaleold\\app\\Controllers\\Property.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Property')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Property')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Property', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-07-22 13:36:25 --> mysqli_sql_exception: Column 'state' cannot be null in C:\xampp\htdocs\mediresaleold\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\mediresaleold\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xampp\htdocs\mediresaleold\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp\htdocs\mediresaleold\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp\htdocs\mediresaleold\system\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp\htdocs\mediresaleold\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\mediresaleold\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\mediresaleold\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\mediresaleold\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\mediresaleold\app\Controllers\Property.php(88): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\mediresaleold\system\CodeIgniter.php(933): App\Controllers\Property->add_property()
+#10 C:\xampp\htdocs\mediresaleold\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Property))
+#11 C:\xampp\htdocs\mediresaleold\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\mediresaleold\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\mediresaleold\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp\htdocs\mediresaleold\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 {main}
+CRITICAL - 2024-07-22 13:36:25 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'state' cannot be null
+[Method: POST, Route: property/add_property]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `property` (`name`, `description`, `state`, `city`, `zipcode`, `address`, `built_year`, `total_area`, `price`, `parking`, `equipment_image`) VALUES (:name:, :description:, :state:, :city:, :zipcode:, :address:, :built_year:, :total_area:, :price:, :parking:, :equipment_image:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Property.php(88): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Property->add_property()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Property))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 13:36:25 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'state' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `property` (`name`, `description`, `state`, `city`, `zipcode`, `address`, `built_year`, `total_area`, `price`, `parking`, `equipment_image`) VALUES (\'hanuman\', \'<p>bunflow villa</p>\', NULL, NULL, \'43444\', \'giridhi lane\', \'3434\', \'1200sq.ft\', \'4cr\', \'yes\', \'1721655385_6508e17ff52e38006352.jpg\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `property` (`name`, `description`, `state`, `city`, `zipcode`, `address`, `built_year`, `total_area`, `price`, `parking`, `equipment_image`) VALUES (\'hanuman\', \'<p>bunflow villa</p>\', NULL, NULL, \'43444\', \'giridhi lane\', \'3434\', \'1200sq.ft\', \'4cr\', \'yes\', \'1721655385_6508e17ff52e38006352.jpg\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `property` (`name`, `description`, `state`, `city`, `zipcode`, `address`, `built_year`, `total_area`, `price`, `parking`, `equipment_image`) VALUES (:name:, :description:, :state:, :city:, :zipcode:, :address:, :built_year:, :total_area:, :price:, :parking:, :equipment_image:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\Property.php(88): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Property->add_property()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Property))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 13:36:25 --> [Caused by] mysqli_sql_exception: Column 'state' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `property` (`name`, `description`, `state`, `city`, `zipcode`, `address`, `built_year`, `total_area`, `price`, `parking`, `equipment_image`) VALUES (\'hanuman\', \'<p>bunflow villa</p>\', NULL, NULL, \'43444\', \'giridhi lane\', \'3434\', \'1200sq.ft\', \'4cr\', \'yes\', \'1721655385_6508e17ff52e38006352.jpg\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `property` (`name`, `description`, `state`, `city`, `zipcode`, `address`, `built_year`, `total_area`, `price`, `parking`, `equipment_image`) VALUES (\'hanuman\', \'<p>bunflow villa</p>\', NULL, NULL, \'43444\', \'giridhi lane\', \'3434\', \'1200sq.ft\', \'4cr\', \'yes\', \'1721655385_6508e17ff52e38006352.jpg\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `property` (`name`, `description`, `state`, `city`, `zipcode`, `address`, `built_year`, `total_area`, `price`, `parking`, `equipment_image`) VALUES (\'hanuman\', \'<p>bunflow villa</p>\', NULL, NULL, \'43444\', \'giridhi lane\', \'3434\', \'1200sq.ft\', \'4cr\', \'yes\', \'1721655385_6508e17ff52e38006352.jpg\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `property` (`name`, `description`, `state`, `city`, `zipcode`, `address`, `built_year`, `total_area`, `price`, `parking`, `equipment_image`) VALUES (:name:, :description:, :state:, :city:, :zipcode:, :address:, :built_year:, :total_area:, :price:, :parking:, :equipment_image:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Property.php(88): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Property->add_property()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Property))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-07-22 13:36:38 --> mysqli_sql_exception: Column 'state' cannot be null in C:\xampp\htdocs\mediresaleold\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\mediresaleold\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xampp\htdocs\mediresaleold\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp\htdocs\mediresaleold\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp\htdocs\mediresaleold\system\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp\htdocs\mediresaleold\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\mediresaleold\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\mediresaleold\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\mediresaleold\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\mediresaleold\app\Controllers\Property.php(88): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\mediresaleold\system\CodeIgniter.php(933): App\Controllers\Property->add_property()
+#10 C:\xampp\htdocs\mediresaleold\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Property))
+#11 C:\xampp\htdocs\mediresaleold\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\mediresaleold\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\mediresaleold\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp\htdocs\mediresaleold\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 {main}
+CRITICAL - 2024-07-22 13:36:38 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'state' cannot be null
+[Method: POST, Route: property/add_property]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `property` (`name`, `description`, `state`, `city`, `zipcode`, `address`, `built_year`, `total_area`, `price`, `parking`, `equipment_image`) VALUES (:name:, :description:, :state:, :city:, :zipcode:, :address:, :built_year:, :total_area:, :price:, :parking:, :equipment_image:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Property.php(88): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Property->add_property()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Property))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 13:36:38 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'state' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `property` (`name`, `description`, `state`, `city`, `zipcode`, `address`, `built_year`, `total_area`, `price`, `parking`, `equipment_image`) VALUES (\'hanuman\', \'<p>bunflow villa</p>\', NULL, NULL, \'43444\', \'giridhi lane\', \'3434\', \'1200sq.ft\', \'4cr\', \'yes\', NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `property` (`name`, `description`, `state`, `city`, `zipcode`, `address`, `built_year`, `total_area`, `price`, `parking`, `equipment_image`) VALUES (\'hanuman\', \'<p>bunflow villa</p>\', NULL, NULL, \'43444\', \'giridhi lane\', \'3434\', \'1200sq.ft\', \'4cr\', \'yes\', NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `property` (`name`, `description`, `state`, `city`, `zipcode`, `address`, `built_year`, `total_area`, `price`, `parking`, `equipment_image`) VALUES (:name:, :description:, :state:, :city:, :zipcode:, :address:, :built_year:, :total_area:, :price:, :parking:, :equipment_image:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\Property.php(88): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Property->add_property()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Property))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 13:36:38 --> [Caused by] mysqli_sql_exception: Column 'state' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `property` (`name`, `description`, `state`, `city`, `zipcode`, `address`, `built_year`, `total_area`, `price`, `parking`, `equipment_image`) VALUES (\'hanuman\', \'<p>bunflow villa</p>\', NULL, NULL, \'43444\', \'giridhi lane\', \'3434\', \'1200sq.ft\', \'4cr\', \'yes\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `property` (`name`, `description`, `state`, `city`, `zipcode`, `address`, `built_year`, `total_area`, `price`, `parking`, `equipment_image`) VALUES (\'hanuman\', \'<p>bunflow villa</p>\', NULL, NULL, \'43444\', \'giridhi lane\', \'3434\', \'1200sq.ft\', \'4cr\', \'yes\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `property` (`name`, `description`, `state`, `city`, `zipcode`, `address`, `built_year`, `total_area`, `price`, `parking`, `equipment_image`) VALUES (\'hanuman\', \'<p>bunflow villa</p>\', NULL, NULL, \'43444\', \'giridhi lane\', \'3434\', \'1200sq.ft\', \'4cr\', \'yes\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `property` (`name`, `description`, `state`, `city`, `zipcode`, `address`, `built_year`, `total_area`, `price`, `parking`, `equipment_image`) VALUES (:name:, :description:, :state:, :city:, :zipcode:, :address:, :built_year:, :total_area:, :price:, :parking:, :equipment_image:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Property.php(88): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Property->add_property()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Property))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-07-22 13:39:06 --> mysqli_sql_exception: Column 'state' cannot be null in C:\xampp\htdocs\mediresaleold\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\mediresaleold\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xampp\htdocs\mediresaleold\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp\htdocs\mediresaleold\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp\htdocs\mediresaleold\system\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp\htdocs\mediresaleold\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\mediresaleold\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\mediresaleold\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\mediresaleold\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\mediresaleold\app\Controllers\Property.php(88): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\mediresaleold\system\CodeIgniter.php(933): App\Controllers\Property->add_property()
+#10 C:\xampp\htdocs\mediresaleold\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Property))
+#11 C:\xampp\htdocs\mediresaleold\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\mediresaleold\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\mediresaleold\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp\htdocs\mediresaleold\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 {main}
+CRITICAL - 2024-07-22 13:39:06 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'state' cannot be null
+[Method: POST, Route: property/add_property]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `property` (`name`, `description`, `state`, `city`, `zipcode`, `address`, `built_year`, `total_area`, `price`, `parking`, `equipment_image`) VALUES (:name:, :description:, :state:, :city:, :zipcode:, :address:, :built_year:, :total_area:, :price:, :parking:, :equipment_image:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Property.php(88): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Property->add_property()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Property))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 13:39:06 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'state' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `property` (`name`, `description`, `state`, `city`, `zipcode`, `address`, `built_year`, `total_area`, `price`, `parking`, `equipment_image`) VALUES (\'hanuman\', \'<p>bunflow villa</p>\', NULL, NULL, \'43444\', \'giridhi lane\', \'3434\', \'1200sq.ft\', \'4cr\', \'yes\', NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `property` (`name`, `description`, `state`, `city`, `zipcode`, `address`, `built_year`, `total_area`, `price`, `parking`, `equipment_image`) VALUES (\'hanuman\', \'<p>bunflow villa</p>\', NULL, NULL, \'43444\', \'giridhi lane\', \'3434\', \'1200sq.ft\', \'4cr\', \'yes\', NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `property` (`name`, `description`, `state`, `city`, `zipcode`, `address`, `built_year`, `total_area`, `price`, `parking`, `equipment_image`) VALUES (:name:, :description:, :state:, :city:, :zipcode:, :address:, :built_year:, :total_area:, :price:, :parking:, :equipment_image:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\Property.php(88): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Property->add_property()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Property))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 13:39:06 --> [Caused by] mysqli_sql_exception: Column 'state' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `property` (`name`, `description`, `state`, `city`, `zipcode`, `address`, `built_year`, `total_area`, `price`, `parking`, `equipment_image`) VALUES (\'hanuman\', \'<p>bunflow villa</p>\', NULL, NULL, \'43444\', \'giridhi lane\', \'3434\', \'1200sq.ft\', \'4cr\', \'yes\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `property` (`name`, `description`, `state`, `city`, `zipcode`, `address`, `built_year`, `total_area`, `price`, `parking`, `equipment_image`) VALUES (\'hanuman\', \'<p>bunflow villa</p>\', NULL, NULL, \'43444\', \'giridhi lane\', \'3434\', \'1200sq.ft\', \'4cr\', \'yes\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `property` (`name`, `description`, `state`, `city`, `zipcode`, `address`, `built_year`, `total_area`, `price`, `parking`, `equipment_image`) VALUES (\'hanuman\', \'<p>bunflow villa</p>\', NULL, NULL, \'43444\', \'giridhi lane\', \'3434\', \'1200sq.ft\', \'4cr\', \'yes\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `property` (`name`, `description`, `state`, `city`, `zipcode`, `address`, `built_year`, `total_area`, `price`, `parking`, `equipment_image`) VALUES (:name:, :description:, :state:, :city:, :zipcode:, :address:, :built_year:, :total_area:, :price:, :parking:, :equipment_image:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Property.php(88): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Property->add_property()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Property))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 13:58:47 --> ParseError: Unclosed '{' on line 8
+[Method: GET, Route: property]
+in APPPATH\Controllers\Property.php on line 106.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\mediresaleold\\app\\Controllers\\Property.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Property')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Property')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Property', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
